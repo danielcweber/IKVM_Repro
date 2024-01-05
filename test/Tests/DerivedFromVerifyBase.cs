@@ -4,15 +4,15 @@ using Xunit;
 
 namespace Tests
 {
-    public class Failing : VerifyBase
+    public class DerivedFromVerifyBase : VerifyBase
     {
-        public Failing() : base()
+        public DerivedFromVerifyBase() : base()
         {
 
         }
 
         [Fact]
-        public void Always()
+        public void Fails_always()
         {
             new java.lang.Object();
         }
