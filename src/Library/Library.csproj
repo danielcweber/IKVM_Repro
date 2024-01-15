@@ -6,6 +6,8 @@
 
   <ItemGroup>
     <PackageReference Include="IKVM" Version="8.7.4-pre.16" />
+	<PackageReference Include="IKVM.Maven.Sdk" Version="1.6.7" />
+	<MavenReference Include="org.apache.commons:commons-configuration2" Version="2.9.0" />
   </ItemGroup>
   
 </Project>

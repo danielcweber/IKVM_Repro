@@ -8,14 +8,14 @@ namespace Tests
         [Fact]
         public void Works_when_no_failing_test_has_run_before()
         {
-            new java.lang.Object();
+            new org.apache.commons.configuration2.BaseConfiguration();
         }
 
         [Fact]
         public void Fails_always()
         {
             new VerifySettings();
-            new java.lang.Object();
+            new org.apache.commons.configuration2.BaseConfiguration();
         }
     }
 }
