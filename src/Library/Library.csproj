@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="IKVM" Version="8.7.3" />
+    <PackageReference Include="IKVM" Version="8.7.4-pre.16" />
   </ItemGroup>
   
 </Project>
