@@ -27,5 +27,19 @@ namespace Tests
 
             new org.apache.commons.configuration2.BaseConfiguration();
         }
+
+        [Fact]
+        public void Works_when_no_failing_test_has_run_before_because_VerifySettings_is_created_in_a_method_that_is_never_called()
+        {
+            if (DateTime.Now.Month == 13)
+                CreateVerifySettings();
+
+            new org.apache.commons.configuration2.BaseConfiguration();
+        }
+
+        private void CreateVerifySettings()
+        {
+            new VerifySettings();
+        }
     }
 }
