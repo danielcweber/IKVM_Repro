@@ -14,7 +14,7 @@ namespace Tests
         [Fact]
         public void Fails_always()
         {
-            new java.lang.Object();
+            new org.apache.commons.configuration2.BaseConfiguration();
         }
     }
 }
